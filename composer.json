@@ -1,0 +1,17 @@
+{
+   "repositories": [
+     {
+       "type": "vcs",
+       "url": "https://github.com/trimeloni/myFirstComposer"
+      }
+    ],
+    "require": {
+        "trimeloni/myFirstComposer": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
+
